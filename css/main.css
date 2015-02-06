@@ -6,16 +6,19 @@ h1 {
 	background-color: #ffe524;
 	font-family:"Sigmar one";
 	font-size:3rem;
-	padding: 1em 1em 0.5em 2em;
+	padding: 0.2em 1em 0em 2em;
 	color:#b32f52;
+	display: inline-block;
 }
 
 header {
 	background-color: #ffe524;
+	padding: 0.5em 0.5em;
 }
 
 body {
 	font-family:"Georgia";
+	margin: 0.5;
 }
 
 nav ol {
@@ -31,7 +34,7 @@ nav li {
 	display: inline-block;
 	background-color:#b1a233;
 	border-radius: 5px;
-	padding: 0.3em 0.5em;
+	padding: 0.3em;
 	margin: 0;
 
 }
@@ -47,17 +50,44 @@ h3 {
 	color:#b32f52;
 }
 
+img {
+	width: 100%;
+}
+
+figure {
+	border: 3px solid #c5b844;
+	border-radius: 10px;
+	padding: 0.75em 0.75em 0.75em 0.75em;
+	background:#eef6ad;
+}
+
+figcaption {
+	text-align: center;
+}
+
 blockquote {
 	color:#b1a233;
+	text-align: center;
+	font-size: 1.5rem;
 }
 
 dt {
 	font-weight: bold;
 }
 
-nav footer {
+dd {
+	margin: 0;
+}
+
+.foot {
 	background-color:#ffe524;
 	padding: 1em 1em 1em 4em;
 }
 
-a {}
+.wiki {
+	color:red
+}
+
+.wiki:hover {
+	color: white;
+}
