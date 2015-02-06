@@ -6,7 +6,7 @@ h1 {
 	background-color: #ffe524;
 	font-family:"Sigmar one";
 	font-size:3rem;
-	padding: 1em 1em 1em 2em;
+	padding: 1em 1em 0.5em 2em;
 	color:#b32f52;
 }
 
@@ -14,9 +14,14 @@ header {
 	background-color: #ffe524;
 }
 
+body {
+	font-family:"Georgia";
+}
+
 nav ol {
 	background-color:#ffe524;
 	list-style-type: none;
+	margin: 0;
 }
 
 nav li {
@@ -26,19 +31,33 @@ nav li {
 	display: inline-block;
 	background-color:#b1a233;
 	border-radius: 5px;
-	padding: 1em 0.5em 0.5em 0.5em;
-	width: 6em;
+	padding: 0.3em 0.5em;
 	margin: 0;
-	border:;
+
 }
 
 h2 {
 	font-family:"Sigmar one";
 	color:#b32f52;
-	border-top: 4px line #ffe524
+	border-top: 4em line #ffe524;
 }
 
 h3 {
 	font-family:"Sigmar one";
 	color:#b32f52;
 }
+
+blockquote {
+	color:#b1a233;
+}
+
+dt {
+	font-weight: bold;
+}
+
+nav footer {
+	background-color:#ffe524;
+	padding: 1em 1em 1em 4em;
+}
+
+a {}
