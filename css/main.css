@@ -5,6 +5,7 @@ html {
 header h1 {
 	background-color: #ffe524;
 	font-family:"Sigmar one";
+	font-size: 6rem;
 	padding: 1em 1em 1em 1em;
 	color:#b32f52;
 }
@@ -16,4 +17,6 @@ nav ol {
 nav li {
 	color: #b32f52;
 	font-family:"Georgia";
+	font-size: 5rem ;
+	list-style-type: none;
 }
