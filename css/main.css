@@ -12,11 +12,13 @@ header h1 {
 
 nav ol {
 	background-color:#ffe524;
+	list-style-type: none;
 }
 
 nav li {
 	color: #b32f52;
 	font-family:"Georgia";
 	font-size: 5rem ;
-	list-style-type: none;
 }
+
+
