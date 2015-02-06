@@ -8,3 +8,7 @@ header h1 {
 	padding: 1em 1em 1em 1em;
 	color:#b32f52;
 }
+
+nav ol {
+	background-color:#b32f52;
+}
