@@ -11,9 +11,22 @@ h1 {
 	display: inline-block;
 }
 
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+	background-color:#b32f52;
+}
+
 header {
 	background-color: #ffe524;
 	padding: 0.5em 0.5em;
+}
+
+.hlist:hover {
+	color:#ffe524;
 }
 
 body {
@@ -42,7 +55,7 @@ nav li {
 h2 {
 	font-family:"Sigmar one";
 	color:#b32f52;
-	border-top: 4em line #ffe524;
+	border-top: solid 0.2rem #ffe524;
 }
 
 h3 {
@@ -52,6 +65,15 @@ h3 {
 
 img {
 	width: 100%;
+}
+
+.quote {
+	margin: 0;
+	font-size: 6rem;
+	color: #c6c41b;
+	text-align: center;
+	padding: 0;
+	line-height: 0.5;
 }
 
 figure {
