@@ -17,14 +17,13 @@ color: white;
 text-decoration: none;
 }
 
-a:hover {
+li:hover {
 	background-color:#b32f52;
-	padding: 0.5rem;
+
 }
 
 header {
 	background-color: #ffe524;
-
 }
 
 .hlist:hover {
@@ -39,10 +38,12 @@ body {
 nav {
 	text-align: center;
 }
+
 nav ol {
 	background-color:#ffe524;
 	list-style-type: none;
 	margin: 0;
+	border-radius
 }
 
 nav li {
